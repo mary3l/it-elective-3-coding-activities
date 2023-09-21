@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.185);
+}
+
+#grid {
+  width: 300px;
+  height: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  border-radius: 5px;
+}
+
+.tiles {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  font-size: large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s; 
+}
+
+.tiles:hover {
+  color: black;
+  transform: scale(1.05);
+  border-color:  rgba(158, 66, 245, 0.888);
+}
+
+.winning-cell {
+  background-color: rgba(207, 19, 19, 0.677); /* Change the color as desired */
+  color: black;
+  border-color: white;
+  transform: scale(1.05);
+}
