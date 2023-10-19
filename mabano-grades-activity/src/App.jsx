@@ -32,7 +32,7 @@ function App() {
   };
 
   return (
-    <div className="bg-gradient-to-r from-purple-500 via-blue-500 to-green-500 min-h-screen p-5">
+    <div className="bg-gradient-to-r from-indigo-600 via-teal-500 to-emerald-500 min-h-screen p-5">
       <div className="text-center py-5">
         <h1 className="text-3xl text-white font-bold animate-bounce">
           Your Grades - React JS + Vite
